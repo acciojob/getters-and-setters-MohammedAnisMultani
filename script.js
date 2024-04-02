@@ -14,6 +14,9 @@ class Person {
         get name(){
           return this.#name
         }
+        get age(){
+          return this.#age
+        }
 }
 
 class Student extends Person {
