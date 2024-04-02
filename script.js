@@ -1,14 +1,14 @@
 //complete this code
 class Person {
 	  #name;
-       
+        #age;
         constructor(name,age){
           this.#name = name
-          this.age = age
+          this.#age = age
 
         }
         set age(data){
-          this.age = data
+          this.#age = data
         }
 
         get name(){
