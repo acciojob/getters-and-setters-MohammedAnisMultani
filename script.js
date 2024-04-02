@@ -10,6 +10,9 @@ class Person {
         set age(data){
           this.#age = data
         }
+        get age(){
+         return this.#age
+        }
 
         get name(){
           return this.#name
